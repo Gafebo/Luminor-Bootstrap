@@ -1,0 +1,60 @@
+.navbar {
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    
+   
+}
+
+.section {
+    padding-top: 60px;
+    /* Substitua 60px pelo valor da altura da sua navbar */
+    
+}
+
+.logo {
+    width: 150px;
+    /* Defina a largura desejada */
+    height: auto;
+    /* Mantém a proporção da imagem */
+    
+  
+}
+
+
+.carrosel.container{
+    width: 100%;
+    justify-content: center;
+    margin-left: 20px; /* Margem esquerda */
+    margin-right: 20px; /* Margem direita */
+  }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* CARDS DE IMAGEM */
+.card {
+    width: 18rem;
+    margin-right: 10px;
+    /* Espaçamento entre os cards */
+}
+
+/* Define um estilo para o container de produtos */
+.container-md {
+    display: flex;
+    /* Transforma o container em um flex container */
+    justify-content: space-between;
+    /* Alinha os cards com espaçamento entre eles */
+}
